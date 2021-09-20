@@ -8,7 +8,7 @@ export default function LandingPage() {
         <h3 className="address">Eagle Mountain, UT</h3>
       </div>
       <h1 className="title">Full Stack Web Developer</h1>
-      <img src="/profilePic2.JPG" alt="profilePic" className="profilePic" />
+      <img src="/profilePic2.jpg" alt="profilePic" className="profilePic" />
       <p className="picDesc">Click me to download my Resume!</p>
       <div className="middleContent">
         <div className="attributes">
