@@ -1,0 +1,101 @@
+.logo {
+  position: absolute;
+  width: 16.66em;
+  border-radius: 40%;
+  margin-left: 74em;
+  margin-bottom: 10em;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logoDesc {
+  position: absolute;
+  margin-top: 10em;
+  margin-left: 81.75em;
+}
+
+.brutus {
+  position: absolute;
+  width: 27.5em;
+  margin-left: 0.25em;
+  border-radius: 25%;
+  box-shadow: 0.25em 0.25em 1em darkslategray;
+}
+
+.brutusGreet {
+  position: absolute;
+  font-size: xx-large;
+  margin-top: 23.75em;
+  margin-left: 4em;
+}
+
+.koda {
+  position: absolute;
+  margin-left: 91.2em;
+  width: 27.5em;
+  margin-top: 9em;
+  border-radius: 25%;
+  box-shadow: 0.25em 0.25em 1em darkslategray;
+}
+
+.kodaGreet {
+  position: absolute;
+  font-size: xx-large;
+  margin-left: 48.5em;
+  margin-top: 3em;
+}
+
+.contactForm {
+  margin-top: 0.25em;
+  height: 26.5em;
+  width: 30.98em;
+  /* border: solid green 5px; */
+  margin-left: 14em;
+  background-color: lightslategray;
+  border-radius: 10%;
+  border: solid darkslategray 0.25em;
+  font-size: xx-large;
+}
+
+.formInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5em;
+  align-items: flex-start;
+  margin-top: 1em;
+}
+
+.name {
+  width: 15em;
+  height: 1.5em;
+  margin-bottom: 1.5em;
+  border-radius: 7%;
+  font-size: xx-large;
+}
+
+.contact {
+  width: 20em;
+  height: 1.5em;
+  margin-bottom: 1.5em;
+  border-radius: 7%;
+  font-size: xx-large;
+}
+
+.message {
+  width: 27.5em;
+  height: 10em;
+  margin-bottom: 1.5em;
+  border-radius: 7%;
+  font-size: xx-large;
+}
+
+.submitBtn {
+  font-size: xx-large;
+  margin-top: 0.25em;
+  border-radius: 25%;
+  margin-left: 11.5em;
+  width: 5em;
+  background-color: rgb(214, 230, 247);
+}
