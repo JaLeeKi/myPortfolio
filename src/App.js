@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./index.css";
 
@@ -8,6 +8,10 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 export default function App() {
+  const [name, setName] = useState("");
+  const [contact, setContact] = useState("");
+  const [message, setMessage] = useState("");
+
   return (
     <Router>
       <Switch>
@@ -17,7 +21,14 @@ export default function App() {
           <Footer />
         </Route>
         <Route exact path="/contact">
-          <ContactMe />
+          <ContactMe
+            name={name}
+            setName={setName}
+            contact={contact}
+            setContact={setContact}
+            message={message}
+            setMessage={setMessage}
+          />
           <Footer />
         </Route>
       </Switch>

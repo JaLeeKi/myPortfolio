@@ -1,15 +1,43 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
+import axios from "axios";
 import "./ContactMe.css";
 
-export default function ContactMe() {
+export default function ContactMe({
+  name,
+  setName,
+  contact,
+  setContact,
+  message,
+  setMessage,
+}) {
   let history = useHistory();
+
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    axios({
+      method: "POST",
+      url: "http://localhost:3005/send",
+      data: { name, contact, message },
+    }).then((response) => {
+      if (response.data.status === "success") {
+        setName("");
+        setContact("");
+        setMessage("");
+        alert("Message Sent!");
+      } else if (response.data.status === "fail") {
+        alert("Message failed to send.");
+      }
+    });
+  }
+
   return (
     <div>
-      <img src="/brutus.jpg" alt="noBrutus" className="brutus" />
+      {/* <img src="/brutus.jpg" alt="noBrutus" className="brutus" />
       <h3 className="brutusGreet">Meet Brutus!</h3>
       <img src="/koda.jpg" alt="noKoda" className="koda" />
-      <h3 className="kodaGreet">Say Hi To Koda!</h3>
+      <h3 className="kodaGreet">Say Hi To Koda!</h3> */}
       <img
         src="/logoFigmaV.png"
         alt="noImg"
@@ -20,14 +48,36 @@ export default function ContactMe() {
         }}
       />
       <p className="logoDesc">(back to home)</p>
-      <form className="contactForm">
+      <form className="contactForm" onSubmit={handleSubmit}>
         <div className="formInfo">
           <label for="name">Name:</label>
-          <input type="text" id="name" className="name" />
+          <input
+            type="text"
+            id="name"
+            className="name"
+            onChange={(e) => {
+              setName(e.target.value);
+            }}
+          />
           <label for="contact">Best Contact:</label>
-          <input type="text" id="contact" className="contact" />
+          <input
+            type="text"
+            id="contact"
+            className="contact"
+            onChange={(e) => {
+              setContact(e.target.value);
+            }}
+          />
           <label for="message">Message:</label>
-          <input type="text" id="message" className="message" />
+          <input
+            type="textarea"
+            rows="5"
+            id="message"
+            className="message"
+            onChange={(e) => {
+              setMessage(e.target.value);
+            }}
+          />
           <input type="submit" id="submitBtn" className="submitBtn" />
         </div>
       </form>
