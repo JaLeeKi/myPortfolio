@@ -1,6 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import axios from "axios";
+import swal from "sweetalert";
 import "./ContactMe.css";
 
 export default function ContactMe({
@@ -25,9 +26,17 @@ export default function ContactMe({
         setName("");
         setContact("");
         setMessage("");
-        alert("Message Sent!");
+        swal({
+          title: "Great!",
+          text: "Your message was sent!",
+          icon: "success",
+        });
       } else if (response.data.status === "fail") {
-        alert("Message failed to send.");
+        swal({
+          title: "Oh, no!",
+          text: "There was an error sending your message.",
+          icon: "error",
+        });
       }
     });
   }
