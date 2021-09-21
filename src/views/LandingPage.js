@@ -4,10 +4,12 @@ export default function LandingPage() {
   return (
     <div className="content">
       <div className="nameAddress">
-        <h2 classname="name">Jade Kirkham</h2>
-        <h3 className="address">Eagle Mountain, UT</h3>
+        <h1 className="title">Full Stack Web Developer</h1>
+        <div className="smallNameAdd">
+          <h2 className="name">Jade Kirkham</h2>
+          <h3 className="address">Eagle Mountain, UT</h3>
+        </div>
       </div>
-      <h1 className="title">Full Stack Web Developer</h1>
       <a href="/Resume-Jade-Kirkham.pdf" download="Jade_Kirkham_Resume">
         <img src="/profilePic2.jpg" alt="profilePic" className="profilePic" />
       </a>
@@ -15,7 +17,7 @@ export default function LandingPage() {
       <div className="middleContent">
         <div className="attributes">
           <div className="attrAbout">
-            <h1>About:</h1>
+            <h1>ABOUT:</h1>
             <p className="aboutInfo">
               I spent the first 7 years of my professional career working in
               Customer Relations / Tech Support. I spent the next 2 years
@@ -27,12 +29,12 @@ export default function LandingPage() {
             </p>
           </div>
           <div className="attrSkills">
-            <h1 className="skills">Skills:</h1>
+            <h1 className="skills">SKILLS:</h1>
             <ul className="skillsList">
               <li>React</li>
               <li>JavaScript</li>
               <li>HTML5</li>
-              <li>CSS</li>
+              <li>CSS3</li>
               <li>Node.js</li>
               <li>Git</li>
               <li>MySQL</li>
@@ -45,7 +47,7 @@ export default function LandingPage() {
             </ul>
           </div>
           <div className="attrProjectsAndAwards">
-            <h1 className="projTitle">Projects:</h1>
+            <h1 className="projTitle">PROJECTS:</h1>
             <p className="hint">(Best if viewed on a monitor)</p>
             <ul className="projectsList">
               <li>
@@ -61,7 +63,7 @@ export default function LandingPage() {
                 <p className="fourMonths">(4-Months into Bootcamp)</p>
               </li>
             </ul>
-            <h1 className="awardsTitle">Awards:</h1>
+            <h1 className="awardsTitle">AWARDS:</h1>
             <ul className="awardsList">
               <li>Graduated Web Dev Bootcamp - DevMountain</li>
               <li>Eagle Scout - Boy Scouts of America</li>

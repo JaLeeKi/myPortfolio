@@ -61,11 +61,11 @@ export default function ContactMe({
       </div>
       <form className="contactForm" onSubmit={handleSubmit}>
         <div className="formInfo">
-          <label for="name">Name:</label>
+          <label for="contact">Name:</label>
           <input
             type="text"
             id="name"
-            className="name"
+            className="contactName"
             placeholder="First and Last Name"
             onChange={(e) => {
               setName(e.target.value);

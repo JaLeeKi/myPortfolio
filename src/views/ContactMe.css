@@ -78,7 +78,7 @@
   margin-top: 1em;
 }
 
-.name {
+.contactName {
   width: 17em;
   height: 1.5em;
   margin-bottom: 1.5em;
@@ -87,7 +87,7 @@
   outline: none;
 }
 
-.name::placeholder {
+.contactName::placeholder {
   text-align: center;
 }
 
