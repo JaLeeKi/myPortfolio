@@ -8,7 +8,9 @@ export default function LandingPage() {
         <h3 className="address">Eagle Mountain, UT</h3>
       </div>
       <h1 className="title">Full Stack Web Developer</h1>
-      <img src="/profilePic2.jpg" alt="profilePic" className="profilePic" />
+      <a href="/Resume-Jade-Kirkham.pdf" download="Jade_Kirkham_Resume">
+        <img src="/profilePic2.jpg" alt="profilePic" className="profilePic" />
+      </a>
       <p className="picDesc">Click me to download my Resume!</p>
       <div className="middleContent">
         <div className="attributes">
@@ -29,11 +31,12 @@ export default function LandingPage() {
             <ul className="skillsList">
               <li>React</li>
               <li>JavaScript</li>
-              <li>HTML</li>
+              <li>HTML5</li>
               <li>CSS</li>
               <li>Node.js</li>
               <li>Git</li>
               <li>MySQL</li>
+              <li>PostgreSQL</li>
               <li>Scrum</li>
               <li>Agile Methodologies</li>
               <li>Chrome Dev Tools</li>
@@ -62,7 +65,7 @@ export default function LandingPage() {
             <ul className="awardsList">
               <li>Graduated Web Dev Bootcamp - DevMountain</li>
               <li>Eagle Scout - Boy Scouts of America</li>
-              <li>2nd Place Utah Entrepeneur - Skills USA</li>
+              <li>2nd Place Utah Entrepreneur - Skills USA</li>
             </ul>
           </div>
         </div>

@@ -17,10 +17,10 @@ body {
 }
 
 .logoNav {
-  width: 20em;
+  width: 17em;
   border-radius: 40%;
   margin-left: 3em;
-  margin-top: 2em;
+  margin-top: 1.8em;
 }
 
 .contactBtn {
@@ -67,7 +67,7 @@ body {
 .profilePic {
   width: 23.25em;
   border-radius: 32.25%;
-  margin-bottom: 3.25em;
+  margin-bottom: 3em;
   box-shadow: 0.25em 0.25em 1em darkslategray;
 }
 
