@@ -91,6 +91,7 @@
 }
 
 .contactName::placeholder {
+  color: #a5a58d;
   text-align: center;
 }
 
@@ -107,6 +108,7 @@
 }
 
 .contact::placeholder {
+  color: #a5a58d;
   text-align: center;
 }
 
@@ -127,11 +129,13 @@
 }
 
 .message::placeholder {
+  color: #a5a58d;
   text-align: center;
 }
 
 .submitBtn {
   font-size: xx-large;
+  color: #a5a58d;
   margin-top: 0.25em;
   border-radius: 25%;
   margin-left: 10em;
@@ -142,6 +146,16 @@
   cursor: pointer;
   /* animation-name: test;
   animation-duration: 4s; */
+}
+
+.submitBtn:hover {
+  font-weight: 750;
+  width: 7em;
+  box-shadow: 0.5em 0.5em 0.75em #64645a;
+}
+
+.contactFooter {
+  margin-left: 55em;
 }
 /* 
 @keyframes test {

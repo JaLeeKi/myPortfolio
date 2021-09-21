@@ -29,7 +29,6 @@ export default function App() {
             message={message}
             setMessage={setMessage}
           />
-          <Footer />
         </Route>
       </Switch>
     </Router>

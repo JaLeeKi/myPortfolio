@@ -13,7 +13,7 @@ export default function LandingPage() {
       <a href="/Resume-Jade-Kirkham.pdf" download="Jade_Kirkham_Resume">
         <img src="/profilePic2.jpg" alt="profilePic" className="profilePic" />
       </a>
-      <p className="picDesc">Click me to download my Resume!</p>
+      <p className="picDesc">(Click pic to download my Resume!)</p>
       <div className="middleContent">
         <div className="attributes">
           <div className="attrAbout">
