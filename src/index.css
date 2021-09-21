@@ -24,7 +24,7 @@ body {
 
 .contactBtn {
   margin-right: 3em;
-  height: 2em;
+  height: 1.75em;
   border-radius: 20%;
   font-size: xx-large;
   font-weight: 500;
@@ -157,10 +157,32 @@ body {
   box-shadow: 0.25em 0.5em 1em darkslategray;
 }
 
+.projTitle {
+  margin-bottom: 0em;
+}
+
+.hint {
+  margin-top: 0em;
+}
+
 .projectsList {
   text-align: start;
   padding-left: 0.75em;
   font-size: x-large;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.twoMonths {
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+}
+
+.fourMonths {
+  margin-top: 0em;
+}
+
+.awardsTitle {
   margin-top: 0em;
 }
 

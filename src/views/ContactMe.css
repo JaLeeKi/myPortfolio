@@ -49,7 +49,7 @@
 
 .contactForm {
   margin-top: 0.25em;
-  height: 26.5em;
+  height: 26em;
   width: 30.98em;
   /* border: solid green 5px; */
   margin-left: 14em;
@@ -57,6 +57,8 @@
   border-radius: 10%;
   border: solid darkslategray 0.25em;
   font-size: xx-large;
+  box-shadow: 0.25em 0.25em 0.25em darkslategray;
+  margin-bottom: 0.5em;
 }
 
 .formInfo {
