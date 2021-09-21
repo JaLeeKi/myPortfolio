@@ -39,6 +39,7 @@ body {
 }
 
 .contactBtn:hover {
+  cursor: pointer;
   font-weight: 750;
   width: 7em;
   box-shadow: 0.5em 0.5em 0.75em #47473d;
