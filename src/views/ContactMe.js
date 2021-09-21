@@ -64,6 +64,7 @@ export default function ContactMe({
             type="text"
             id="name"
             className="name"
+            placeholder="First and Last Name"
             onChange={(e) => {
               setName(e.target.value);
             }}
@@ -73,16 +74,19 @@ export default function ContactMe({
             type="text"
             id="contact"
             className="contact"
+            placeholder="Email and/or Phone Number"
             onChange={(e) => {
               setContact(e.target.value);
             }}
           />
           <label for="message">Message:</label>
-          <input
-            type="textarea"
+          <textarea
             rows="5"
+            cols="50"
             id="message"
             className="message"
+            name="message"
+            placeholder="Your Message Here"
             onChange={(e) => {
               setMessage(e.target.value);
             }}

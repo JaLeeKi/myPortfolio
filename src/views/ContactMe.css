@@ -70,11 +70,16 @@
 }
 
 .name {
-  width: 15em;
+  width: 17em;
   height: 1.5em;
   margin-bottom: 1.5em;
   border-radius: 7%;
   font-size: xx-large;
+  outline: none;
+}
+
+.name::placeholder {
+  text-align: center;
 }
 
 .contact {
@@ -83,21 +88,35 @@
   margin-bottom: 1.5em;
   border-radius: 7%;
   font-size: xx-large;
+  outline: none;
+}
+
+.contact::placeholder {
+  text-align: center;
 }
 
 .message {
-  width: 27.5em;
+  display: flex;
+  text-align: justify;
+  width: 30em;
   height: 10em;
   margin-bottom: 1.5em;
-  border-radius: 7%;
+  border-radius: 3%;
   font-size: xx-large;
+  outline: none;
+  word-wrap: break-word;
+  resize: none;
+}
+
+.message::placeholder {
+  text-align: center;
 }
 
 .submitBtn {
   font-size: xx-large;
   margin-top: 0.25em;
   border-radius: 25%;
-  margin-left: 11.5em;
+  margin-left: 10em;
   width: 5em;
   background-color: rgb(214, 230, 247);
 }
