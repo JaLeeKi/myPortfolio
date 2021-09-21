@@ -47,16 +47,18 @@ export default function ContactMe({
       <h3 className="brutusGreet">Meet Brutus!</h3>
       <img src="/koda.jpg" alt="noKoda" className="koda" />
       <h3 className="kodaGreet">Say Hi To Koda!</h3> */}
-      <img
-        src="/logoFigmaV.png"
-        alt="noImg"
-        className="logo"
-        //onHover to say BACK
-        onClick={() => {
-          history.push("/");
-        }}
-      />
-      <p className="logoDesc">(back to home)</p>
+      <div className="logoAndDesc">
+        <img
+          src="/logoFigmaV.png"
+          alt="noImg"
+          className="logo"
+          //onHover to say BACK
+          onClick={() => {
+            history.push("/");
+          }}
+        />
+        <p className="logoDesc">(back to home)</p>
+      </div>
       <form className="contactForm" onSubmit={handleSubmit}>
         <div className="formInfo">
           <label for="name">Name:</label>

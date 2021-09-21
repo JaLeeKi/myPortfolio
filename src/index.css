@@ -35,6 +35,7 @@ body {
 
 .contactBtn:hover {
   cursor: pointer;
+  font-weight: 750;
 }
 
 .content {
@@ -73,6 +74,7 @@ body {
 
 .profilePic:hover {
   cursor: pointer;
+  box-shadow: 0.75em 0.75em 1em darkslategray;
 }
 
 .picDesc {
@@ -114,6 +116,10 @@ body {
   box-shadow: 0.25em 0.5em 1em darkslategray;
 }
 
+.attrAbout:hover {
+  box-shadow: 0.75em 1em 1em darkslategray;
+}
+
 .aboutInfo {
   font-size: x-large;
   margin-left: 0.15em;
@@ -131,6 +137,10 @@ body {
   height: 32.5em;
   text-align: center;
   box-shadow: 0.25em 0.5em 1em darkslategray;
+}
+
+.attrSkills:hover {
+  box-shadow: 0.75em 1em 1em darkslategray;
 }
 
 .skills {
@@ -156,6 +166,10 @@ body {
   align-items: center;
   margin-top: 12.5em;
   box-shadow: 0.25em 0.5em 1em darkslategray;
+}
+
+.attrProjectsAndAwards:hover {
+  box-shadow: 0.75em 1em 1em darkslategray;
 }
 
 .projTitle {

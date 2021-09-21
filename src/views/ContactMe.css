@@ -8,6 +8,7 @@
 
 .logo:hover {
   cursor: pointer;
+  width: 17em;
 }
 
 .logoDesc {
@@ -15,6 +16,10 @@
   margin-top: 10em;
   margin-left: 81.75em;
 }
+
+/* .logoAndDesc:hover {
+  cursor: pointer;
+} */
 
 /* .brutus {
   position: absolute;
@@ -59,6 +64,10 @@
   font-size: xx-large;
   box-shadow: 0.25em 0.25em 0.25em darkslategray;
   margin-bottom: 0.5em;
+}
+
+.contactForm:hover {
+  box-shadow: 0.25em 0.5em 0.5em darkslategray;
 }
 
 .formInfo {
@@ -119,4 +128,34 @@
   margin-left: 10em;
   width: 5em;
   background-color: rgb(214, 230, 247);
+  /* animation-name: test;
+  animation-duration: 4s; */
 }
+/* 
+@keyframes test {
+  0% {
+    background-color: red;
+    margin-left: 10em;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200em;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+} */
