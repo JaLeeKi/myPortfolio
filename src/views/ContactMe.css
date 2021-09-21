@@ -58,16 +58,16 @@
   width: 30.98em;
   /* border: solid green 5px; */
   margin-left: 14em;
-  background-color: lightslategray;
+  background-color: #b7b7a4;
   border-radius: 10%;
-  border: solid darkslategray 0.25em;
+  border: solid #818175 0.25em;
   font-size: xx-large;
-  box-shadow: 0.25em 0.25em 0.25em darkslategray;
+  box-shadow: 0.25em 0.25em 0.25em #64645a;
   margin-bottom: 0.5em;
 }
 
 .contactForm:hover {
-  box-shadow: 0.25em 0.5em 0.5em darkslategray;
+  box-shadow: 0.25em 0.5em 0.5em #64645a;
 }
 
 .formInfo {
@@ -82,9 +82,12 @@
   width: 17em;
   height: 1.5em;
   margin-bottom: 1.5em;
-  border-radius: 7%;
+  border-radius: 5%;
   font-size: xx-large;
   outline: none;
+  background-color: #fff1e6;
+  border: solid #eddcd2 0.25em;
+  box-shadow: 0.25em 0.25em 0.5em #64645a;
 }
 
 .contactName::placeholder {
@@ -95,9 +98,12 @@
   width: 20em;
   height: 1.5em;
   margin-bottom: 1.5em;
-  border-radius: 7%;
+  border-radius: 5%;
   font-size: xx-large;
   outline: none;
+  background-color: #fff1e6;
+  border: solid #eddcd2 0.25em;
+  box-shadow: 0.25em 0.25em 0.5em #64645a;
 }
 
 .contact::placeholder {
@@ -110,11 +116,14 @@
   width: 30em;
   height: 10em;
   margin-bottom: 1.5em;
-  border-radius: 3%;
+  border-radius: 2.5%;
   font-size: xx-large;
   outline: none;
   word-wrap: break-word;
   resize: none;
+  background-color: #fff1e6;
+  border: solid #eddcd2 0.25em;
+  box-shadow: 0.25em 0.25em 0.5em #64645a;
 }
 
 .message::placeholder {
@@ -127,7 +136,10 @@
   border-radius: 25%;
   margin-left: 10em;
   width: 5em;
-  background-color: rgb(214, 230, 247);
+  border: solid #eddcd2 0.15em;
+  background-color: #fff1e6;
+  box-shadow: 0.25em 0.25em 0.5em #64645a;
+  cursor: pointer;
   /* animation-name: test;
   animation-duration: 4s; */
 }

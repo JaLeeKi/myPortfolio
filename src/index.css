@@ -3,7 +3,7 @@ body {
   height: 100%;
   width: 100%;
   margin: 0em;
-  background-color: slategray;
+  background-color: #a5a58d;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -32,9 +32,10 @@ body {
   border-radius: 20%;
   font-size: xx-large;
   font-weight: 500;
-  background-color: rgb(214, 230, 247);
-  box-shadow: 0.1em 0.1em 0.25em darkslategray;
+  box-shadow: 0.1em 0.1em 0.25em #47473d;
   margin-top: 9em;
+  border: solid #eddcd2 0.15em;
+  background-color: #fff1e6;
 }
 
 .contactBtn:hover {
@@ -44,7 +45,7 @@ body {
 }
 
 .content {
-  background-color: slategray;
+  background-color: #a5a58d;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,13 +86,13 @@ body {
   width: 28.5em;
   border-radius: 32.25%;
   margin-bottom: 5.75em;
-  box-shadow: 0.25em 0.25em 1em darkslategray;
+  box-shadow: 0.25em 0.25em 1em #47473d;
   margin-top: 18.75em;
 }
 
 .profilePic:hover {
   cursor: pointer;
-  box-shadow: 0.75em 0.75em 1em darkslategray;
+  box-shadow: 0.75em 0.75em 1em #47473d;
 }
 
 .picDesc {
@@ -101,8 +102,8 @@ body {
 }
 
 .middleContent {
-  box-shadow: 1em 0.25em 1em 0.75em darkslategray;
-  background-color: lightslategray;
+  box-shadow: 1em 0.25em 1em 0.75em #47473d;
+  background-color: #b7b7a4;
   border-radius: 10%;
   width: 100%;
   height: 54.25em;
@@ -124,18 +125,19 @@ body {
 .attrAbout {
   display: flex;
   flex-direction: column;
-  border: solid rgb(87, 100, 112) 0.5em;
+  border: solid #eddcd2 0.5em;
+  background-color: #fff1e6;
   border-radius: 15%;
   width: 30em;
   align-items: center;
   height: 33em;
-  box-shadow: 0.25em 0.5em 1em darkslategray;
+  box-shadow: 0.25em 0.5em 1em #64645a;
   transition-property: height, margin-top;
   transition-duration: 0.5s, 0.75s;
 }
 
 .attrAbout:hover {
-  box-shadow: 1em 1em 1em darkslategray;
+  box-shadow: 1em 1em 1em #64645a;
   height: 45em;
   margin-top: 3em;
 }
@@ -150,19 +152,20 @@ body {
 .attrSkills {
   display: flex;
   flex-direction: column;
-  border: solid rgb(87, 100, 112) 0.5em;
+  border: solid #eddcd2 0.5em;
+  background-color: #fff1e6;
   border-radius: 15%;
   width: 30em;
   align-items: center;
   height: 33em;
   text-align: center;
-  box-shadow: 0.25em 0.5em 1em darkslategray;
+  box-shadow: 0.25em 0.5em 1em #64645a;
   transition-property: height, margin-top;
   transition-duration: 0.5s, 0.75s;
 }
 
 .attrSkills:hover {
-  box-shadow: 1em 1em 1em darkslategray;
+  box-shadow: 1em 1em 1em #64645a;
   height: 45em;
   margin-top: 3em;
 }
@@ -183,18 +186,19 @@ body {
 .attrProjectsAndAwards {
   display: flex;
   flex-direction: column;
-  border: solid rgb(87, 100, 112) 0.5em;
+  border: solid #eddcd2 0.5em;
+  background-color: #fff1e6;
   border-radius: 15%;
   width: 30em;
   height: 33em;
   align-items: center;
-  box-shadow: 0.25em 0.5em 1em darkslategray;
+  box-shadow: 0.25em 0.5em 1em #64645a;
   transition-property: height, margin-top;
   transition-duration: 0.5s, 0.75s;
 }
 
 .attrProjectsAndAwards:hover {
-  box-shadow: 1em 1em 1em darkslategray;
+  box-shadow: 1em 1em 1em #64645a;
   height: 45em;
   margin-top: 3em;
 }
@@ -239,7 +243,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: slategray;
+  background-color: #a5a58d;
   width: 100%;
   margin-top: 0.25em;
 }
