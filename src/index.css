@@ -27,7 +27,7 @@ body {
 }
 
 .contactBtn {
-  margin-right: 7.5em;
+  margin-right: 8em;
   height: 1.75em;
   border-radius: 20%;
   font-size: xx-large;
@@ -226,17 +226,27 @@ body {
   margin-bottom: 0.75em;
 }
 
-.twoMonths {
+.rpg {
+  margin-bottom: 0em;
+}
+
+.rpgDesc {
   margin-top: 0em;
   margin-bottom: 0.5em;
 }
 
-.fourMonths {
+.tom {
+  margin-bottom: 0em;
+}
+
+.tomDesc {
   margin-top: 0em;
+  margin-bottom: 0.25em;
 }
 
 .awardsTitle {
   margin-top: 0em;
+  margin-bottom: 0.4em;
 }
 
 .awardsList {
@@ -244,6 +254,18 @@ body {
   font-size: x-large;
   margin-top: 0em;
   margin-right: 1em;
+}
+
+.devm {
+  margin-bottom: 0.5em;
+}
+
+.bsa {
+  margin-bottom: 0.5em;
+}
+
+.susa {
+  margin-bottom: 0.5em;
 }
 
 .footerBar {

@@ -50,24 +50,24 @@ export default function LandingPage() {
             <h1 className="projTitle">PROJECTS:</h1>
             <p className="hint">(Best if viewed on a monitor)</p>
             <ul className="projectsList">
-              <li>
+              <li className="rpg">
                 <a href="https://random-pswrd.herokuapp.com/">
                   Random Password Generator
                 </a>
-                <p className="twoMonths">(2-Months into Bootcamp)</p>
+                <p className="rpgDesc">(JavaScript, CSS3, HTML5)</p>
               </li>
-              <li>
+              <li className="tom">
                 <a href="https://travel-assistant21.herokuapp.com/">
                   Travel-O-Matic
                 </a>
-                <p className="fourMonths">(4-Months into Bootcamp)</p>
+                <p className="tomDesc">(React, JavaScript, CSS3)</p>
               </li>
             </ul>
             <h1 className="awardsTitle">AWARDS:</h1>
             <ul className="awardsList">
-              <li>Graduated Web Dev Bootcamp - DevMountain</li>
-              <li>Eagle Scout - Boy Scouts of America</li>
-              <li>2nd Place Utah Entrepreneur - Skills USA</li>
+              <li className="devm">Graduated Web Dev Bootcamp - DevMountain</li>
+              <li className="bsa">Eagle Scout - Boy Scouts of America</li>
+              <li className="susa">2nd Place Utah Entrepreneur - Skills USA</li>
             </ul>
           </div>
         </div>
