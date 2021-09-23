@@ -148,6 +148,16 @@ body {
   margin-top: 3em;
 }
 
+.aboutExpand {
+  text-align: center;
+  transition-property: margin-top;
+  transition-duration: 0.75s;
+}
+
+.aboutExpand:hover {
+  margin-top: 2.5em;
+}
+
 .aboutInfo {
   font-size: x-large;
   margin-left: 1.5em;
@@ -178,6 +188,137 @@ body {
 
 .skills {
   text-align: center;
+  margin-bottom: 0em;
+}
+
+.sReact {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.25s;
+}
+
+.sReact:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.sJs {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.25s;
+}
+
+.sJs:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.sHtml {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.25s;
+}
+
+.sHtml:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.sCss {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.25s;
+}
+
+.sCss:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.sNode {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.25s;
+}
+
+.sNode:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.sGit {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.25s;
+}
+
+.sGit:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.sGith {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.25s;
+}
+
+.sGith:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.sSQL {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.25s;
+}
+
+.sSQL:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.sScrum {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.25s;
+}
+
+.sScrum:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.sAgile {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.25s;
+}
+
+.sAgile:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.sChrome {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.25s;
+}
+
+.sChrome:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.sCm {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.25s;
+}
+
+.sCm:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.sEit {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.5s;
+}
+
+.sEit:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .skillsList {
@@ -213,6 +354,27 @@ body {
   margin-bottom: 0em;
 }
 
+.projectExpand {
+  text-align: center;
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.75s, 0.75s;
+}
+
+.projectExpand:hover {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+.awardExpand {
+  text-align: center;
+  transition-property: margin-top;
+  transition-duration: 0.75s;
+}
+
+.awardExpand:hover {
+  margin-top: 2.5em;
+}
+
 .hint {
   margin-top: 0em;
 }
@@ -232,7 +394,14 @@ body {
 
 .rpgDesc {
   margin-top: 0em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
+}
+
+.rpgSrc {
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  margin-left: 10.5em;
 }
 
 .tom {
@@ -241,12 +410,19 @@ body {
 
 .tomDesc {
   margin-top: 0em;
-  margin-bottom: 0.25em;
+  margin-bottom: 0em;
+}
+
+.tomSrc {
+  font-size: small;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 10.5em;
 }
 
 .awardsTitle {
   margin-top: 0em;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.25em;
 }
 
 .awardsList {
@@ -257,15 +433,15 @@ body {
 }
 
 .devm {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
 }
 
 .bsa {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
 }
 
 .susa {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
 }
 
 .footerBar {

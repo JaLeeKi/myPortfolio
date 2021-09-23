@@ -17,58 +17,80 @@ export default function LandingPage() {
       <div className="middleContent">
         <div className="attributes">
           <div className="attrAbout">
-            <h1>ABOUT:</h1>
-            <p className="aboutInfo">
-              I spent the first 7 years of my professional career working in
-              Customer Relations / Tech Support. I spent the next 2 years
-              working as a Commerical Electrical Apprentice. Since then, I have
-              found a passion for coding, unlike any other that I have
-              experienced, and I am dedicated to making this my future. I have
-              just graduated DevMountain and am looking for the right company to
-              grow my roots with!
-            </p>
+            <div className="aboutExpand">
+              <h1>ABOUT:</h1>
+              <p className="aboutInfo">
+                I spent the first 7 years of my professional career working in
+                Customer Relations / Tech Support. I spent the next 2 years
+                working as a Commerical Electrical Apprentice. Since then, I
+                have found a passion for coding, unlike any other that I have
+                experienced, and I am dedicated to making this my future. I have
+                just graduated DevMountain and am looking for the right company
+                to grow my roots with!
+              </p>
+            </div>
           </div>
           <div className="attrSkills">
             <h1 className="skills">SKILLS:</h1>
             <ul className="skillsList">
-              <li>React</li>
-              <li>JavaScript</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Node.js</li>
-              <li>Git</li>
-              <li>MySQL</li>
-              <li>PostgreSQL</li>
-              <li>Scrum</li>
-              <li>Agile Methodologies</li>
-              <li>Chrome Dev Tools</li>
-              <li>Customer Management</li>
-              <li>Electrical Installation / Troubleshooting</li>
+              <li className="sReact">React</li>
+              <li className="sJs">JavaScript</li>
+              <li className="sHtml">HTML5</li>
+              <li className="sCss">CSS3</li>
+              <li className="sNode">Node.js</li>
+              <li className="sGit">Git</li>
+              <li className="sGith">GitHub</li>
+              <li className="sSQL">MySQL</li>
+              <li className="sScrum">Scrum</li>
+              <li className="sAgile">Agile Methodologies</li>
+              <li className="sChrome">Chrome Dev Tools</li>
+              <li className="sCm">Customer Management</li>
+              <li className="sEit">
+                Electrical Installation / Troubleshooting
+              </li>
             </ul>
           </div>
           <div className="attrProjectsAndAwards">
-            <h1 className="projTitle">PROJECTS:</h1>
-            <p className="hint">(Best if viewed on a monitor)</p>
-            <ul className="projectsList">
-              <li className="rpg">
-                <a href="https://random-pswrd.herokuapp.com/">
-                  Random Password Generator
-                </a>
-                <p className="rpgDesc">(JavaScript, CSS3, HTML5)</p>
-              </li>
-              <li className="tom">
-                <a href="https://travel-assistant21.herokuapp.com/">
-                  Travel-O-Matic
-                </a>
-                <p className="tomDesc">(React, JavaScript, CSS3)</p>
-              </li>
-            </ul>
-            <h1 className="awardsTitle">AWARDS:</h1>
-            <ul className="awardsList">
-              <li className="devm">Graduated Web Dev Bootcamp - DevMountain</li>
-              <li className="bsa">Eagle Scout - Boy Scouts of America</li>
-              <li className="susa">2nd Place Utah Entrepreneur - Skills USA</li>
-            </ul>
+            <div className="projectExpand">
+              <h1 className="projTitle">PROJECTS:</h1>
+              <p className="hint">(Best if viewed on a monitor)</p>
+              <ul className="projectsList">
+                <li className="rpg">
+                  <a href="https://random-pswrd.herokuapp.com/">
+                    Random Password Generator
+                  </a>
+                  <p className="rpgDesc">(JavaScript, CSS3, HTML5)</p>
+                  <p className="rpgSrc">
+                    <a href="https://github.com/JaLeeKi/random-pswrd">
+                      Source Code
+                    </a>
+                  </p>
+                </li>
+                <li className="tom">
+                  <a href="https://travel-assistant21.herokuapp.com/">
+                    Travel-O-Matic
+                  </a>
+                  <p className="tomDesc">(React, JavaScript, CSS3)</p>
+                  <p className="tomSrc">
+                    <a href="https://github.com/JaLeeKi/reactCapstone/tree/main/travel-assistant">
+                      Source Code
+                    </a>
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div className="awardExpand">
+              <h1 className="awardsTitle">AWARDS:</h1>
+              <ul className="awardsList">
+                <li className="devm">
+                  Graduated Web Dev Bootcamp - DevMountain
+                </li>
+                <li className="bsa">Eagle Scout - Boy Scouts of America</li>
+                <li className="susa">
+                  2nd Place Utah Entrepreneur - Skills USA
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
