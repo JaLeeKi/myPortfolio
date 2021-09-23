@@ -392,7 +392,7 @@ body {
 
 .rpgExpand {
   transition-property: margin-top, margin-bottom;
-  transition-duration: 0.75s, 0.75s;
+  transition-duration: 0.5s, 0.5s;
 }
 
 .rpgExpand:hover {
@@ -402,7 +402,7 @@ body {
 
 .tomExpand {
   transition-property: margin-top, margin-bottom;
-  transition-duration: 0.75s, 0.75s;
+  transition-duration: 0.5s, 0.5s;
 }
 
 .tomExpand:hover {
