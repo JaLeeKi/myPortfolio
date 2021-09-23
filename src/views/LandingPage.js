@@ -42,7 +42,7 @@ export default function LandingPage() {
                 <li className="sGit">Git</li>
                 <li className="sGith">GitHub</li>
                 <li className="sSQL">MySQL</li>
-                <li className="sPost">PostgreSql</li>
+                <li className="sPost">PostgreSQL</li>
                 <li className="sScrum">Scrum</li>
                 <li className="sAgile">Agile Methodologies</li>
                 <li className="sChrome">Chrome Dev Tools</li>
