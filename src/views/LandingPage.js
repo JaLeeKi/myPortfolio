@@ -31,24 +31,26 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="attrSkills">
-            <h1 className="skills">SKILLS:</h1>
-            <ul className="skillsList">
-              <li className="sReact">React</li>
-              <li className="sJs">JavaScript</li>
-              <li className="sHtml">HTML5</li>
-              <li className="sCss">CSS3</li>
-              <li className="sNode">Node.js</li>
-              <li className="sGit">Git</li>
-              <li className="sGith">GitHub</li>
-              <li className="sSQL">MySQL</li>
-              <li className="sScrum">Scrum</li>
-              <li className="sAgile">Agile Methodologies</li>
-              <li className="sChrome">Chrome Dev Tools</li>
-              <li className="sCm">Customer Management</li>
-              <li className="sEit">
-                Electrical Installation / Troubleshooting
-              </li>
-            </ul>
+            <div className="skillsExpand">
+              <h1 className="skills">SKILLS:</h1>
+              <ul className="skillsList">
+                <li className="sReact">React</li>
+                <li className="sJs">JavaScript</li>
+                <li className="sHtml">HTML5</li>
+                <li className="sCss">CSS3</li>
+                <li className="sNode">Node.js</li>
+                <li className="sGit">Git</li>
+                <li className="sGith">GitHub</li>
+                <li className="sSQL">MySQL</li>
+                <li className="sScrum">Scrum</li>
+                <li className="sAgile">Agile Methodologies</li>
+                <li className="sChrome">Chrome Dev Tools</li>
+                <li className="sCm">Customer Management</li>
+                <li className="sEit">
+                  Electrical Installation / Troubleshooting
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="attrProjectsAndAwards">
             <div className="projectExpand">

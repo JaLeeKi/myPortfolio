@@ -186,6 +186,17 @@ body {
   margin-top: 3em;
 }
 
+.skillsExpand {
+  text-align: center;
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.75s, 0.75s;
+}
+
+.skillsExpand:hover {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
 .skills {
   text-align: center;
   margin-bottom: 0.5em;
