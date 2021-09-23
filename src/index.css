@@ -205,6 +205,8 @@ body {
 .sReact {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.25s;
+  height: 1.25em;
+  /* border: solid red 0.25em; */
 }
 
 .sReact:hover {
@@ -215,6 +217,7 @@ body {
 .sJs {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.25s;
+  height: 1.25em;
 }
 
 .sJs:hover {
@@ -225,6 +228,7 @@ body {
 .sHtml {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.25s;
+  height: 1.25em;
 }
 
 .sHtml:hover {
@@ -235,6 +239,7 @@ body {
 .sCss {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.25s;
+  height: 1.25em;
 }
 
 .sCss:hover {
@@ -245,6 +250,7 @@ body {
 .sNode {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.25s;
+  height: 1.25em;
 }
 
 .sNode:hover {
@@ -255,6 +261,7 @@ body {
 .sGit {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.25s;
+  height: 1.25em;
 }
 
 .sGit:hover {
@@ -265,6 +272,7 @@ body {
 .sGith {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.25s;
+  height: 1.25em;
 }
 
 .sGith:hover {
@@ -275,6 +283,7 @@ body {
 .sSQL {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.25s;
+  height: 1.25em;
 }
 
 .sSQL:hover {
@@ -285,6 +294,7 @@ body {
 .sScrum {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.25s;
+  height: 1.25em;
 }
 
 .sScrum:hover {
@@ -295,6 +305,7 @@ body {
 .sAgile {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.25s;
+  height: 1.25em;
 }
 
 .sAgile:hover {
@@ -305,6 +316,7 @@ body {
 .sChrome {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.25s;
+  height: 1.25em;
 }
 
 .sChrome:hover {
@@ -315,6 +327,7 @@ body {
 .sCm {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.25s;
+  height: 1.25em;
 }
 
 .sCm:hover {
@@ -325,6 +338,7 @@ body {
 .sEit {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.5s;
+  height: 1.25em;
 }
 
 .sEit:hover {
@@ -374,6 +388,26 @@ body {
 .projectExpand:hover {
   margin-top: 2.5em;
   margin-bottom: 2.5em;
+}
+
+.rpgExpand {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.75s, 0.75s;
+}
+
+.rpgExpand:hover {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.tomExpand {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.75s, 0.75s;
+}
+
+.tomExpand:hover {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .awardExpand {
@@ -443,16 +477,37 @@ body {
   margin-right: 1em;
 }
 
-.devm {
+.devM {
   margin-bottom: 0.25em;
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.75s, 0.75s;
+}
+
+.devM:hover {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 .bsa {
   margin-bottom: 0.25em;
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.75s, 0.75s;
 }
 
-.susa {
+.bsa:hover {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.sUsa {
   margin-bottom: 0.25em;
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.75s, 0.75s;
+}
+
+.sUsa:hover {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 .footerBar {
