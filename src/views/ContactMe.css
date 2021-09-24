@@ -17,46 +17,10 @@
   margin-left: 81.75em;
 }
 
-/* .logoAndDesc:hover {
-  cursor: pointer;
-} */
-
-/* .brutus {
-  position: absolute;
-  width: 27.5em;
-  margin-left: 0.25em;
-  border-radius: 25%;
-  box-shadow: 0.25em 0.25em 1em darkslategray;
-}
-
-.brutusGreet {
-  position: absolute;
-  font-size: xx-large;
-  margin-top: 23.75em;
-  margin-left: 4em;
-}
-
-.koda {
-  position: absolute;
-  margin-left: 91.2em;
-  width: 27.5em;
-  margin-top: 9em;
-  border-radius: 25%;
-  box-shadow: 0.25em 0.25em 1em darkslategray;
-}
-
-.kodaGreet {
-  position: absolute;
-  font-size: xx-large;
-  margin-left: 48.5em;
-  margin-top: 3em;
-} */
-
 .contactForm {
   margin-top: 0.25em;
   height: 26em;
   width: 30.98em;
-  /* border: solid green 5px; */
   margin-left: 14em;
   background-color: #b7b7a4;
   border-radius: 10%;

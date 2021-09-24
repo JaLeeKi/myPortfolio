@@ -81,10 +81,11 @@ body {
   margin-bottom: 0.25em;
 }
 
-.profilePic {
-  position: relative;
+.imgHover > img {
+  position: absolute;
   z-index: 2;
   width: 30em;
+  height: 30em;
   border-radius: 32.25%;
   margin-bottom: 5.75em;
   box-shadow: 0.25em 0.25em 1em #47473d;
@@ -92,12 +93,18 @@ body {
   border: solid #b7b7a4 0.5em;
   transition-property: width;
   transition-duration: 0.25s;
+  left: 43.75em;
 }
 
-.profilePic:hover {
-  cursor: pointer;
-  box-shadow: 0.75em 0.75em 1em #47473d;
-  width: 35em;
+.imgHover > img:last-of-type {
+  opacity: 1;
+  transition: opacity 0.75s ease-in-out;
+  -moz-transition: opacity 0.75s ease-in-out;
+  -webkit-transition: opacity 0.75s ease-in-out;
+}
+
+.imgHover:hover > img:last-of-type {
+  opacity: 0;
 }
 
 .picDesc {
