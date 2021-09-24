@@ -12,7 +12,6 @@ body {
   justify-content: space-between;
   position: absolute;
   z-index: 1;
-  /* border: solid green 0.2em; */
   width: 100%;
   align-items: center;
   height: 7.25em;
@@ -24,6 +23,20 @@ body {
   border-radius: 40%;
   margin-top: 10em;
   margin-left: 10em;
+  animation-name: logo-fade-in;
+  animation-duration: 5s;
+}
+
+@keyframes logo-fade-in {
+  0% {
+    opacity: 0%;
+  }
+  75% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 .contactBtn {
@@ -36,6 +49,20 @@ body {
   margin-top: 9em;
   border: solid #eddcd2 0.15em;
   background-color: #fff1e6;
+  animation-name: btn-fade-in;
+  animation-duration: 5s;
+}
+
+@keyframes btn-fade-in {
+  0% {
+    opacity: 0%;
+  }
+  75% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 .contactBtn:hover {
@@ -43,6 +70,7 @@ body {
   font-weight: 750;
   width: 7em;
   box-shadow: 0.5em 0.5em 0.75em #47473d;
+  margin-right: 7.5em;
 }
 
 .content {
@@ -69,16 +97,43 @@ body {
 
 .name {
   margin-bottom: 0.5em;
+  animation-name: nameAdd-fade-in;
+  animation-duration: 5s;
 }
 
 .address {
   margin-top: 0em;
+  animation-name: nameAdd-fade-in;
+  animation-duration: 5s;
+}
+
+@keyframes nameAdd-fade-in {
+  0% {
+    opacity: 0%;
+  }
+  75% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 .title {
   margin-top: 0.25em;
   font-size: 5em;
   margin-bottom: 0.25em;
+  animation-name: title-fade-in;
+  animation-duration: 5s;
+}
+
+@keyframes title-fade-in {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 .imgHover > img {
@@ -94,6 +149,26 @@ body {
   transition-property: width;
   transition-duration: 0.25s;
   left: 43.75em;
+  animation-name: img-move-in;
+  animation-duration: 1.75s;
+}
+
+@keyframes img-move-in {
+  0% {
+    left: 0em;
+    width: 25em;
+    height: 25em;
+  }
+  50% {
+    left: 50em;
+    width: 35em;
+    height: 35em;
+  }
+  100% {
+    left: 43.75em;
+    width: 30em;
+    height: 30em;
+  }
 }
 
 .imgHover > img:last-of-type {
@@ -110,6 +185,20 @@ body {
 .picDesc {
   position: absolute;
   margin-top: 45em;
+  animation-name: picDesc-fade-in;
+  animation-duration: 5s;
+}
+
+@keyframes picDesc-fade-in {
+  0% {
+    opacity: 0%;
+  }
+  25% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 .middleContent {
@@ -124,6 +213,20 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-top: 53.25em;
+  animation-name: midContent-fade-in;
+  animation-duration: 5s;
+}
+
+@keyframes midContent-fade-in {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 .attributes {
@@ -210,7 +313,7 @@ body {
 }
 
 .skillsExpand:hover > .skillsList {
-  height: 35em;
+  height: 25em;
 }
 
 .skillsList {
@@ -359,6 +462,8 @@ body {
   background-color: #a5a58d;
   width: 100%;
   margin-top: 107.75em;
+  animation-name: midContent-fade-in;
+  animation-duration: 5s;
 }
 
 .linkBtn {
