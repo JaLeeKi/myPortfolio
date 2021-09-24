@@ -3,12 +3,83 @@ import React from "react";
 export default function LandingPage() {
   return (
     <div className="content">
-      <div className="nameAddress">
-        <h1 className="title">Full Stack Web Developer</h1>
-        <div className="smallNameAdd">
-          <h2 className="name">Jade Kirkham</h2>
-          <h3 className="address">Eagle Mountain, UT</h3>
+      <div className="pageTitle">
+        {/* <h1 className="title">Full Stack Web Developer</h1> */}
+        <div className="titleLettersDiv">
+          <span className="titleLettersF" content="F">
+            F
+          </span>
+          <span className="titleLettersU" content="u">
+            u
+          </span>
+          <span className="titleLettersL1" content="l">
+            l
+          </span>
+          <span className="titleLettersL2" content="l">
+            l
+          </span>
         </div>
+        <div className="titleLettersDiv">
+          <span className="titleLettersS" content="S">
+            S
+          </span>
+          <span className="titleLettersT" content="t">
+            t
+          </span>
+          <span className="titleLettersA" content="a">
+            a
+          </span>
+          <span className="titleLettersC" content="c">
+            c
+          </span>
+          <span className="titleLettersK" content="k">
+            k
+          </span>
+        </div>
+        <div className="titleLettersDiv">
+          <span className="titleLettersW" content="W">
+            W
+          </span>
+          <span className="titleLettersE1" content="e">
+            e
+          </span>
+          <span className="titleLettersB" content="b">
+            b
+          </span>
+        </div>
+        <div className="titleLettersDiv">
+          <span className="titleLettersD" content="D">
+            D
+          </span>
+          <span className="titleLettersE2" content="e">
+            e
+          </span>
+          <span className="titleLettersV" content="v">
+            v
+          </span>
+          <span className="titleLettersE3" content="e">
+            e
+          </span>
+          <span className="titleLettersL3" content="l">
+            l
+          </span>
+          <span className="titleLettersO" content="o">
+            o
+          </span>
+          <span className="titleLettersP" content="p">
+            p
+          </span>
+          <span className="titleLettersE4" content="e">
+            e
+          </span>
+          <span className="titleLettersR" content="r">
+            r
+          </span>
+        </div>
+      </div>
+      <div className="nameAdd">
+        <h2 className="name">Jade Kirkham</h2>
+        <h3 className="address">Eagle Mountain, UT</h3>
       </div>
       <a
         href="/Resume-Jade-Kirkham.pdf"
@@ -50,7 +121,7 @@ export default function LandingPage() {
                 <li className="skillsLi">PostgreSQL</li>
                 <li className="skillsLi">Creating / Consuming API's</li>
                 <li className="skillsLi">Agile Methodologies</li>
-                <li className="skillsLi">Scrum</li>
+                <li className="skillsLi">Scrum Meetings</li>
                 <li className="skillsLi">Visual Studio Code</li>
                 <li className="skillsLi">Chrome Dev Tools</li>
                 <li className="skillsLi">Customer Management</li>
