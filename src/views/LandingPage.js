@@ -39,21 +39,22 @@ export default function LandingPage() {
             <div className="skillsExpand">
               <h1 className="skills">SKILLS:</h1>
               <ul className="skillsList">
-                <li className="sReact">React</li>
-                <li className="sJs">JavaScript</li>
-                <li className="sHtml">HTML5</li>
-                <li className="sCss">CSS3</li>
-                <li className="sNode">Node.js</li>
-                <li className="sGit">Git</li>
-                <li className="sGith">GitHub</li>
-                <li className="sSQL">MySQL</li>
-                <li className="sPost">PostgreSQL</li>
-                <li className="sApi">Creating / Consuming API's</li>
-                <li className="sAgile">Agile Methodologies</li>
-                <li className="sScrum">Scrum</li>
-                <li className="sChrome">Chrome Dev Tools</li>
-                <li className="sCm">Customer Management</li>
-                <li className="sEit">
+                <li className="skillsLi">React</li>
+                <li className="skillsLi">JavaScript</li>
+                <li className="skillsLi">HTML5</li>
+                <li className="skillsLi">CSS3</li>
+                <li className="skillsLi">Node.js</li>
+                <li className="skillsLi">Git</li>
+                <li className="skillsLi">GitHub</li>
+                <li className="skillsLi">MySQL</li>
+                <li className="skillsLi">PostgreSQL</li>
+                <li className="skillsLi">Creating / Consuming API's</li>
+                <li className="skillsLi">Agile Methodologies</li>
+                <li className="skillsLi">Scrum</li>
+                <li className="skillsLi">Visual Studio Code</li>
+                <li className="skillsLi">Chrome Dev Tools</li>
+                <li className="skillsLi">Customer Management</li>
+                <li className="skillsLi">
                   Electrical Installation / Troubleshooting
                 </li>
               </ul>
@@ -64,26 +65,26 @@ export default function LandingPage() {
               <h1 className="projTitle">PROJECTS:</h1>
               <p className="hint">(Best if viewed on a monitor)</p>
               <ul className="projectsList">
-                <div className="rpgExpand">
-                  <li className="rpg">
+                <div className="projExpand">
+                  <li className="projLi">
                     <a href="https://random-pswrd.herokuapp.com/">
                       Random Password Generator
                     </a>
-                    <p className="rpgDesc">(JavaScript, CSS3, HTML5)</p>
-                    <p className="rpgSrc">
+                    <p className="projDesc">(JavaScript, CSS3, HTML5)</p>
+                    <p className="projSrc">
                       <a href="https://github.com/JaLeeKi/random-pswrd">
                         Source Code
                       </a>
                     </p>
                   </li>
                 </div>
-                <div className="tomExpand">
-                  <li className="tom">
+                <div className="projExpand">
+                  <li className="projLi">
                     <a href="https://travel-assistant21.herokuapp.com/">
                       Travel-O-Matic
                     </a>
-                    <p className="tomDesc">(React, JavaScript, CSS3)</p>
-                    <p className="tomSrc">
+                    <p className="projDesc">(React, JavaScript, CSS3)</p>
+                    <p className="projSrc">
                       <a href="https://github.com/JaLeeKi/reactCapstone/tree/main/travel-assistant">
                         Source Code
                       </a>
@@ -95,11 +96,13 @@ export default function LandingPage() {
             <div className="awardExpand">
               <h1 className="awardsTitle">AWARDS:</h1>
               <ul className="awardsList">
-                <li className="devM">
+                <li className="awardsLi">
                   Graduated Web Dev Bootcamp - DevMountain
                 </li>
-                <li className="bsa">Eagle Scout - Boy Scouts of America</li>
-                <li className="sUsa">
+                <li className="awardsLi">
+                  Eagle Scout - Boy Scouts of America
+                </li>
+                <li className="awardsLi">
                   2nd Place Utah Entrepreneur - Skills USA
                 </li>
               </ul>

@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div className="footerBar">
       <button
-        className="liBtn"
+        className="linkBtn"
         onClick={() => {
           window.location.href = "https://www.linkedin.com/in/jade-kirkham";
         }}
@@ -17,7 +17,7 @@ export default function Footer() {
         {linkedin}
       </button>
       <button
-        className="ghBtn"
+        className="linkBtn"
         onClick={() => {
           window.location.href = "https://github.com/JaLeeKi";
         }}
