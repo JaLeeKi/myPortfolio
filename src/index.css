@@ -1,6 +1,6 @@
 html,
 body {
-  height: 100%;
+  height: auto;
   width: 100%;
   margin: 0em;
   background-color: #a5a58d;
@@ -309,6 +309,17 @@ body {
   margin-bottom: 0.5em;
 }
 
+.sApi {
+  transition-property: margin-top, margin-bottom;
+  transition-duration: 0.25s, 0.25s;
+  height: 1.25em;
+}
+
+.sApi:hover {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
 .sScrum {
   transition-property: margin-top, margin-bottom;
   transition-duration: 0.25s, 0.25s;
@@ -371,6 +382,12 @@ body {
   font-size: x-large;
   margin-right: 1em;
   margin-top: 0em;
+  overflow: hidden;
+  height: 18.25em;
+}
+
+.skillsList:hover {
+  height: 35em;
 }
 
 .attrProjectsAndAwards {

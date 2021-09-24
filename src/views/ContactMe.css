@@ -1,33 +1,31 @@
 .logo {
   position: absolute;
-  width: 16.66em;
+  width: 14%;
   border-radius: 40%;
-  margin-left: 74em;
-  margin-bottom: 10em;
+  margin-left: 61.75%;
 }
 
 .logo:hover {
   cursor: pointer;
-  width: 17em;
+  width: 14.25%;
 }
 
 .logoDesc {
   position: absolute;
-  margin-top: 10em;
-  margin-left: 81.75em;
+  margin-top: 8.5%;
+  margin-left: 68.25%;
 }
 
 .contactForm {
-  margin-top: 0.25em;
-  height: 26em;
-  width: 30.98em;
-  margin-left: 14em;
+  margin-top: 0.5%;
+  width: 53%;
+  margin-left: 23%;
   background-color: #b7b7a4;
   border-radius: 10%;
   border: solid #818175 0.25em;
   font-size: xx-large;
   box-shadow: 0.25em 0.25em 0.25em #64645a;
-  margin-bottom: 0.5em;
+  margin-bottom: 2.75%;
 }
 
 .contactForm:hover {
@@ -37,15 +35,14 @@
 .formInfo {
   display: flex;
   flex-direction: column;
-  margin-left: 0.5em;
+  margin-left: 2%;
   align-items: flex-start;
-  margin-top: 1em;
+  margin-top: 2.5%;
 }
 
 .contactName {
-  width: 17em;
-  height: 1.5em;
-  margin-bottom: 1.5em;
+  width: 65%;
+  margin-bottom: 5%;
   border-radius: 5%;
   font-size: xx-large;
   outline: none;
@@ -60,9 +57,8 @@
 }
 
 .contact {
-  width: 20em;
-  height: 1.5em;
-  margin-bottom: 1.5em;
+  width: 75%;
+  margin-bottom: 5%;
   border-radius: 5%;
   font-size: xx-large;
   outline: none;
@@ -79,9 +75,8 @@
 .message {
   display: flex;
   text-align: justify;
-  width: 30em;
-  height: 10em;
-  margin-bottom: 1.5em;
+  width: 85%;
+  margin-bottom: 5%;
   border-radius: 2.5%;
   font-size: xx-large;
   outline: none;
@@ -102,24 +97,26 @@
   color: #a5a58d;
   margin-top: 0.25em;
   border-radius: 25%;
-  margin-left: 10em;
-  width: 5em;
+  margin-left: 39.5%;
+  width: 15%;
   border: solid #eddcd2 0.15em;
   background-color: #fff1e6;
   box-shadow: 0.25em 0.25em 0.5em #64645a;
   cursor: pointer;
+  margin-bottom: 5%;
   /* animation-name: test;
   animation-duration: 4s; */
 }
 
 .submitBtn:hover {
   font-weight: 750;
-  width: 7em;
+  width: 20%;
+  margin-left: 37%;
   box-shadow: 0.5em 0.5em 0.75em #64645a;
 }
 
 .contactFooter {
-  margin-left: 55em;
+  margin-left: 45.9%;
 }
 /* 
 @keyframes test {

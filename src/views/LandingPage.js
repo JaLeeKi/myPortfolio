@@ -48,8 +48,9 @@ export default function LandingPage() {
                 <li className="sGith">GitHub</li>
                 <li className="sSQL">MySQL</li>
                 <li className="sPost">PostgreSQL</li>
-                <li className="sScrum">Scrum</li>
+                <li className="sApi">Creating / Consuming API's</li>
                 <li className="sAgile">Agile Methodologies</li>
+                <li className="sScrum">Scrum</li>
                 <li className="sChrome">Chrome Dev Tools</li>
                 <li className="sCm">Customer Management</li>
                 <li className="sEit">
