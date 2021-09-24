@@ -103,7 +103,7 @@ export default function ContactMe({
       </form>
       <div className="contactFooter">
         <button
-          className="liBtn"
+          className="linkBtn"
           onClick={() => {
             window.location.href = "https://www.linkedin.com/in/jade-kirkham";
           }}
@@ -111,7 +111,7 @@ export default function ContactMe({
           {linkedin}
         </button>
         <button
-          className="ghBtn"
+          className="linkBtn"
           onClick={() => {
             window.location.href = "https://github.com/JaLeeKi";
           }}
