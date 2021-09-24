@@ -16,7 +16,7 @@ export default function LandingPage() {
         className="imgHover"
       >
         <img src="/profilePic2.jpg" alt="profilePic" className="profilePic" />
-        <img src="/jadeDarah.JPG" alt="profilePic2" className="profilePic" />
+        <img src="/jadeDarah.jpg" alt="profilePic2" className="profilePic" />
       </a>
       <p className="picDesc">(Click pic to download my Resume!)</p>
       <div className="middleContent">
